@@ -1,4 +1,7 @@
-# spaceship
+# Tarea 4
+## Godot
 
-La idea es ir subiendo las tareas de gráfica.
-Funcionará????
+- Aplicar sprites en Godot.
+- Movimiento básico.
+- Colisiones.
+- Partículas.

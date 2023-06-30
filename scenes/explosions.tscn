@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://4a6tfwa5qeog"]
+
+[ext_resource type="Script" path="res://scenes/explosions.gd" id="1_stmqp"]
+
+[node name="explosions" type="CPUParticles2D"]
+scale = Vector2(2, 2)
+emitting = false
+amount = 400
+lifetime = 1.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0, 0)
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 100.0
+initial_velocity_max = 150.0
+scale_amount_min = 5.0
+scale_amount_max = 10.0
+color = Color(0, 0.803922, 0.886275, 1)
+script = ExtResource("1_stmqp")
